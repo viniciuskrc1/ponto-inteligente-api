@@ -12,6 +12,6 @@ import org.springframework.test.context.junit4.SpringRunner;
 public class PontoInteligenteApplicationTest {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PontoInteligenteApplication.class, args);
+		SpringApplication.run(PontoInteligenteApplicationTest.class, args);
 	}
 }
