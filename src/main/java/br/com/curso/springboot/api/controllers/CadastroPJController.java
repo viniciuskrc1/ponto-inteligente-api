@@ -38,8 +38,7 @@ public class CadastroPJController {
 	@Autowired
 	private EmpresaService empresaService;
 
-	public CadastroPJController() {
-	}
+	public CadastroPJController() {}
 
 	/**
 	 * Cadastra uma pessoa jurídica no sistema.
