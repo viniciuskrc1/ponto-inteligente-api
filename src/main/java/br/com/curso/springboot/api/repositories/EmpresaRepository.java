@@ -5,6 +5,7 @@ import org.springframework.transaction.annotation.Transactional;
 
 import br.com.curso.springboot.api.entidades.Empresa;
 
+
 public interface EmpresaRepository extends JpaRepository<Empresa, Long> {
 	
 	@Transactional(readOnly = true)
